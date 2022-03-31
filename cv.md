@@ -42,7 +42,7 @@ return sumOfMult(number, 3) + sumOfMult(number, 5) - sumOfMult(number, 15);
 
 ## Work experience as a web developer
  * December, 2020 - June, 2021 -- as intern and junior web developer in web studio "Kirano"
- * Since June, 2021 - until now -- as a web developer in marketing agency "Marketing Concept"
+ * Since June, 2021 - January, 2022 -- as a web developer in marketing agency "Marketing Concept"
  And here is some of commercial websites that I have created.
  * [astralbuild.uz](https://astralbuild.uz)
  * [keystone.uz](https://keystone.uz)
@@ -55,6 +55,7 @@ return sumOfMult(number, 3) + sumOfMult(number, 5) - sumOfMult(number, 15);
 ## Education
 * 2013-2018 -- International economic relations / The university of world economy and diplomacy, Tashkent
 * 2018-2019 -- Master of business administration / The university of Ulsan, Ulsan.
+* 2022-until now -- Unicorn project / PDP academy 
 
 ## Level of English language
 C1 / IELTS 7.0 (expired) -- in 2018, January, I participated the examination organized by British council in Tashkent and my score was 7.0.
