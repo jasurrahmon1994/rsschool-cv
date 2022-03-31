@@ -18,7 +18,8 @@ I am Jasur. I was born in 1994 in Namangan, Uzbekistan and now live in Tashkent,
 * CSS3
 * Sass
 * Git
-* Javascript (not much)
+* Javascript
+* React
 
 ## Portfolio
 You may see my Github projects [here](https://github.com/jasurrahmon1994) and it is [my portfolio](https://jasurrahmonov.netlify.app/) on Netlify.
