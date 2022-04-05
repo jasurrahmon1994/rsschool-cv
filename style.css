@@ -1,0 +1,491 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #404042;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #a7a8ac;
+  font-size: 16px;
+}
+
+body {
+  background-color: #d3d3d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 150px 0;
+  width: 100vw;
+}
+
+body .container {
+  background-color: #ffffff;
+  max-width: 1200px;
+}
+
+body .container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+body .container header .avatar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container header .avatar img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+body .container header .name-title {
+  padding-left: 50px;
+}
+
+body .container header .name-title h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 3px;
+}
+
+body .container header .name-title h1 span {
+  font-size: 80px;
+}
+
+body .container header .name-title h2 {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  padding-left: 10px;
+  line-height: 0.9;
+}
+
+body .container header .name-title h3 {
+  font-size: 24px;
+  letter-spacing: 4px;
+  line-height: 1.2;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+body .container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container main aside {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  padding-left: 50px;
+  background-color: #404042;
+  border-top-right-radius: 40px;
+  padding-bottom: 30px;
+}
+
+body .container main aside .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #bcbdbf;
+}
+
+body .container main aside .section-title .icon-wrapper {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+body .container main aside .section-title .icon-wrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+body .container main aside .section-title h2 {
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+body .container main aside .section-info li {
+  padding-top: 20px;
+}
+
+body .container main aside .section-info li p {
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  font-weight: 18px;
+}
+
+body .container main aside .section-info li a {
+  color: #a7a8ac;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  line-height: 1.2;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container main aside .section-info li a:hover {
+  color: white;
+}
+
+body .container main aside .pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+body .container main aside .pics > img {
+  width: 50px;
+  height: 50px;
+  margin: 20px 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+body .container main .main-info {
+  padding-left: 50px;
+}
+
+body .container main .main-info .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #a4a5a8;
+}
+
+body .container main .main-info .section-title .icon-wrapper {
+  width: 50px;
+  height: 50px;
+  background: #404042;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+body .container main .main-info .section-title .icon-wrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+body .container main .main-info .section-title h2 {
+  color: #404042;
+  font-size: 30px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+body .container main .main-info .section-info {
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+body .container main .main-info .section-info > p {
+  text-align: justify;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+body .container main .main-info .section-info .mini-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+body .container main .main-info .section-info .mini-section .period {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
+}
+
+body .container main .main-info .section-info .mini-section .period h5 {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body .container main .main-info .section-info .mini-section .period-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 65%;
+          flex: 0 0 65%;
+  padding-left: 20px;
+}
+
+body .container main .main-info .section-info .mini-section .period-info h5 {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body .container main .main-info .section-info .mini-section .period-info p {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+}
+.github-account {
+  flex: 0 0 40%;
+  background-color: #404042;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.github-account img {
+  width: 50px;
+  height: 50px;
+}
+.github-account p {
+  color: white;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.rs-school {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+.rs-school p {
+  text-align: center;
+}
+.rs-school img {
+  width: 160px;
+  height: 80px;
+}
+.burger-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #404042;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+.navigation {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: -200%;
+  right: 0;
+  height: 100vh;
+  background-color: #404042;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease;
+}
+.navigation.active {
+  left: 0;
+}
+.exit-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 90%;
+}
+.nav-list li {
+  padding: 15px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-list li a {
+  color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+  .burger-menu {
+    display: flex;
+  }
+  body {
+    padding: 0;
+  }
+  body .container main aside, body .container main .main-info {
+    padding-left: 20px;
+  }
+  body .container main aside .section-title h2, body .container main .main-info .section-title h2 {
+    font-size: 20px;
+  }
+  body .container main aside .section-title .icon-wrapper, body .container main .main-info .section-title .icon-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+  body .container main aside .section-title .icon-wrapper img, body .container main .main-info .section-title .icon-wrapper img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 900px) {
+  body .container main .main-info .section-info .mini-section {
+    flex-direction: column;
+  }
+  body .container main .main-info .section-info .mini-section .period-info {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 700px) {
+  body .container header {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  body .container header .name-title {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  body .container header .name-title h1 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  body .container header .name-title h1 span {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  body .container header .name-title h2 {
+    font-size: 26px;
+    padding-left: 0;
+    line-height: 1.4;
+  }
+  body .container header .name-title h3 {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 0;
+  }
+  body .container main {
+    flex-wrap: wrap;
+  }
+  body .container main aside {
+    flex: 0 0 100%;
+    border-top-right-radius: 0;
+  }
+  body .container main .main-info .section-info {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  footer {
+   padding: 0px 15px;
+   justify-content: space-between;
+  }
+  .github-account {
+    background-color: #fff;
+    flex: unset;
+  }
+  .github-account img {
+    filter: invert(1);
+  }
+  .github-account p {
+    color: #a7a8ac;
+  }
+  .github-account img {
+    width: 40px;
+    height: 40px;
+  }
+  .rs-school img {
+    width: 100px;
+    height: 50px;
+  }
+}
